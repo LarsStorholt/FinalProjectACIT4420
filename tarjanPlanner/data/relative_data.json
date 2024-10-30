@@ -1,5 +1,12 @@
 [
     {
+        "name": "Tarjan",
+        "street_name": "Yeouido-daero",
+        "district": "Yeouido",
+        "latitude": 37.5215,
+        "longitude": 126.9243
+    },
+    {
         "name": "Relative_1",
         "street_name": "Gangnam-daero",
         "district": "Gangnam-gu",

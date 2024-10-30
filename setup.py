@@ -9,9 +9,11 @@ setup(
     author="Lars Storholt",
     author_email="s354518@oslomet.no",
     install_requires=[
-        # List your project's dependencies here, if any, e.g.,
-        # 'requests',
+        "networkx>=2.5",
+        "geopy>=2.0",
+        "matplotlib>=3.0",
     ],
+    python_requires=">=3.10",
     entry_points={
         'console_scripts': [
             'getroute=tarjanPlanner.main:main',  # Points directly to the main function in main.py
