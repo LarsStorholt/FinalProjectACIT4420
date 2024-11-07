@@ -5,7 +5,7 @@ setup(
     version="0.1",
     packages=find_packages(),  
     include_package_data=True,  
-    description="Final project in ACIT4420. This program returns a travelling route for ten positions bases on preference (time, price and number of transfers) from the user of the program",
+    description="Final project in ACIT4420. This program returns a travelling route for ten positions based on preference (time or price) from the user of the program",
     author="Lars Storholt",
     author_email="s354518@oslomet.no",
     install_requires=[
@@ -16,7 +16,7 @@ setup(
     python_requires=">=3.10",
     entry_points={
         'console_scripts': [
-            'getroute=tarjanPlanner.main:main',  # Points directly to the main function in main.py
+            'get_route=tarjanPlanner.main:main',  # Points directly to the main function in main.py
         ],
     },
 )

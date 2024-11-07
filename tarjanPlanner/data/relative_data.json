@@ -38,7 +38,7 @@
         "name": "Relative_5",
         "street_name": "Hannam-daero",
         "district": "Yongsan-gu",
-        "latitude": 37.5340,
+        "latitude": 37.534,
         "longitude": 127.0026
     },
     {
@@ -59,15 +59,15 @@
         "name": "Relative_8",
         "street_name": "Bukhan-ro",
         "district": "Jongno-gu",
-        "latitude": 37.5800,
+        "latitude": 37.58,
         "longitude": 126.9844
     },
     {
         "name": "Relative_9",
         "street_name": "Samseong-ro",
         "district": "Gangnam-gu",
-        "latitude": 37.5110,
-        "longitude": 127.0590
+        "latitude": 37.511,
+        "longitude": 127.059
     },
     {
         "name": "Relative_10",
@@ -75,5 +75,5 @@
         "district": "Songpa-gu",
         "latitude": 37.5133,
         "longitude": 127.1028
-    }
+    }  
 ]
