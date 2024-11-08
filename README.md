@@ -22,7 +22,7 @@ This Python package automates is a route optimization for Tarjan who is to visit
 - User-friendly interface with customizable options for route planning.
 
 ## Package Structure
-'''
+"""
 TarjanPlanner/
 │
 ├── LICENSE                  # License information for the package.
@@ -44,7 +44,7 @@ TarjanPlanner/
 │   │   ├── data_loader.py         # Loads and parses data from files.
 │   │   ├── relative_data.json     # JSON file containing information about relatives.
 │   │   └── transport_modes.json   # JSON file listing available transportation modes, costs, speed, and time of transfer.
-'''
+"""
 
 ## Installation 
 
