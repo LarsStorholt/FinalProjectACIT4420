@@ -44,6 +44,24 @@ TarjanPlanner/
         ├── relative_data.json     # JSON file containing information about relatives.
         └── transport_modes.json   # JSON file listing available transportation modes, costs, speed, and time of transfer.
 '''
+TarjanPlanner/ 
+├── LICENSE                   # License information for the package. 
+├── setup.py                  # Installation script for the package. 
+├── README.md                 # Documentation for the package. 
+├── TarjanPlanner/            # Package directory containing the core modules and data files. 
+│ ├── init.py                 # Marks the directory as a package. 
+│ ├── main.py                 # Main script to run the automation tasks. 
+│ │ ├── core/                 # Core modules for handling main functionality. 
+│ │ ├── graph_builder.py      # Builds a graph representation. 
+│ │ ├── route_optimizer.py    # Optimizes the route for visiting relatives. 
+│ │ ├── relatives_manager.py  # Manages information and operations about the relatives. 
+│ │ ├── user_interface.py     # Provides the interface for user interaction. 
+│ │ └── decorators.py         # Utility functions and decorators for data handling. 
+│ │ └── data/                 # Data files and data-handling scripts. 
+│ ├── data_loader.py          # Loads and parses data from files. 
+│ ├── relative_data.json      # JSON file containing information about relatives. 
+│ └── transport_modes.json    # JSON file listing available transportation modes, costs, speed, and time of transfer.
+'''
 
 ## Installation 
 
