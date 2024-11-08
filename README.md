@@ -43,7 +43,7 @@ TarjanPlanner/
         ├── data_loader.py         # Loads and parses data from files.
         ├── relative_data.json     # JSON file containing information about relatives.
         └── transport_modes.json   # JSON file listing available transportation modes, costs, speed, and time of transfer.
-'''
+```
 TarjanPlanner/ 
 ├── LICENSE                   # License information for the package. 
 ├── setup.py                  # Installation script for the package. 
@@ -61,7 +61,8 @@ TarjanPlanner/
 │ ├── data_loader.py          # Loads and parses data from files. 
 │ ├── relative_data.json      # JSON file containing information about relatives. 
 │ └── transport_modes.json    # JSON file listing available transportation modes, costs, speed, and time of transfer.
-'''
+```s
+
 
 ## Installation 
 
