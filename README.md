@@ -21,7 +21,7 @@ This Python package automates is a route optimization for Tarjan who is to visit
 - User-friendly interface with customizable options for route planning.
 
 ## Package Structure
-
+.
 TarjanPlanner/
 │
 ├── LICENSE                  # License information for the package.
