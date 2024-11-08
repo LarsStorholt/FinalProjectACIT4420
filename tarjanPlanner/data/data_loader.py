@@ -1,5 +1,6 @@
 import json
 import os
+import re
 
 
 class DataLoader:
@@ -15,6 +16,9 @@ class DataLoader:
 
     def load_json_data(self, file_path):
         # Helper function to load JSON data from a file.
+        if not self.is_json_file(file_path):
+            print(f"Error: {file_path} is not a JSON file.")
+            return None
         try:
             with open(file_path, 'r') as f:
                 return json.load(f)

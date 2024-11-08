@@ -23,8 +23,8 @@ This Python package automates is a route optimization for Tarjan who is to visit
 
 ## Package Structure
 '''
-morning_greetings/
 TarjanPlanner/
+│
 ├── LICENSE                  # License information for the package.
 ├── setup.py                 # Installation script for the package.
 ├── README.md                # Documentation for the package.
