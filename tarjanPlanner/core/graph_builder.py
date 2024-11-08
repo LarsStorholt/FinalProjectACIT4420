@@ -1,6 +1,5 @@
 import networkx as nx
 from geopy.distance import geodesic 
-import matplotlib.pyplot as plt
 
 def create_city_graph(relatives_data):
     G = nx.Graph()

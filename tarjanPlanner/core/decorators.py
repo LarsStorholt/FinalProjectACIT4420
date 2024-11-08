@@ -1,7 +1,5 @@
 import time
 
-
-
 def track_time(func):
     def wrapper(*args, **kwargs):
 
@@ -10,6 +8,10 @@ def track_time(func):
         end_time = time.time()
         
         execution_time = end_time - start_time
+        
+        print(f"{func.__name__} took {execution_time:.4f} seconds to execute.")
 
-        return result, execution_time
+        return result
     return wrapper
+
+    
