@@ -62,7 +62,7 @@ To get started, follow these steps:
 ## Usage 
 After installing the package, you can run the automation task by using the following command:
    ```bash
-   get_route
+   getroute
    ```
 Alternatively, you can run the main script directly:
    ```bash

@@ -1,14 +1,28 @@
 import time 
 
-def get_user_transport_preference(): 
-    print("Please select your route optimization preference:")
-    print("1. Time")
-    print("2. Costs")
-    start_time = time.time()
-    choice = input("Enter the number (1 or 2): ")
-    end_time = time.time()
-    lost_time = end_time - start_time
-    return choice, lost_time
+def get_user_transport_preference():
+    while True:
+        try:
+            print("Please select your route optimization preference:")
+            print("1. Time")
+            print("2. Costs")
+            start_time = time.time()
+            
+            choice = input("Enter the number (1 or 2): ").strip()
+            end_time = time.time()
+            
+            lost_time = end_time - start_time
+
+            # Validate input
+            if choice not in ('1', '2'):
+                raise ValueError("Invalid choice. Please enter '1' for Time or '2' for Costs.")
+            
+            return choice, lost_time
+
+        except ValueError as e:
+            print(e)
+        except Exception as e:
+            print(f"An unexpected error occurred: {e}")
 
 def print_route_description(optimal_route, relatives_data, distance, travel_time, travel_costs):
     print("A route has been generated for you, Tarjan: ")

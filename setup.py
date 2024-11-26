@@ -16,7 +16,7 @@ setup(
     python_requires=">=3.10",
     entry_points={
         'console_scripts': [
-            'get_route=tarjanPlanner.main:main',  # Points directly to the main function in main.py
+            'getroute=tarjanPlanner.main:main',  # Points directly to the main function in main.py
         ],
     },
 )
